@@ -1,11 +1,12 @@
 <?php
 
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\Models\Usuario;
+use App\Models\Usuario; // Corrige el espacio de nombres aquí
 
-class usuariocontroller extends Controller
+class UsuarioController extends Controller
 {
     public function index()
     {
