@@ -43,6 +43,10 @@ return [
             'visibility' => 'public',
             'throw' => false,
         ],
+        'personas'=>[
+            'driver' => 'local',
+            'root' => storage_path('imagenes/personas'),
+        ],
 
         's3' => [
             'driver' => 's3',
